@@ -325,3 +325,124 @@ body {
     } 
 }
 
+/*Adaptive
+=================== */
+@media (max-width: 900px) {
+    .main-section {
+        padding: 51px 0px 51px 0px;
+    }
+
+    .main-section__biography {
+        display: flex;
+        flex-direction: column;
+        row-gap: 65px;
+        margin-bottom: 53px;  
+    }
+
+    .biography__content {
+        width: 762px;
+    }
+
+    .main-section__img {
+        width: 100%;
+        height: 355px;
+    }
+
+    .portfolio__range {
+        gap: 15px;
+    }
+
+    .portfolio__range-img-wrapper {
+        width: 180px;
+        height: 180px;
+    }
+
+    .portfolio__range-img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-section__img {
+        width: 341px;
+        height: 355px;
+        object-fit: cover;
+    }
+
+    .main-section__biography {
+        row-gap: 62px;
+        margin-bottom: 38px;  
+    }
+
+    .biography__content {
+        width: 341px;
+    }
+
+    .main-section__subtitle {
+        width: 340px;
+    }
+
+    .main-section__btn {
+        padding: 15px 105px;
+    }
+
+    .portfolio__text {
+        width: 345px;
+        margin: 15px 0 28px 0;
+    }
+
+    .portfolio__range {
+        grid-template-columns: repeat(2, 1fr);  
+    }
+
+    .portfolio__range-img-wrapper {
+        width: 165px;
+        height: 165px;
+    }
+
+    .portfolio__range-img {
+        width: 165px;
+        height: 165px;
+    }
+
+    .footer-info-wrapper {
+        column-gap: 25px;
+    }
+
+    /*Modal*/
+    .modal__content {
+        padding: 20px 25px;
+    }
+
+    .modal__text {
+        width: 100%;
+        margin: 10px 0 20px 0;
+    }
+
+    .modal__register {
+        flex-direction: column;
+        row-gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .modal__input-name {
+        width: 100%;
+    }
+
+    .modal__input-email {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .modal__textarea {
+        width: 100%;
+        height: 200px;
+        padding: 16px;
+    }
+
+    .modal__btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
