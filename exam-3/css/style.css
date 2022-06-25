@@ -17,3 +17,128 @@ body {
     letter-spacing: var(--regular-letter-spacing);
     text-transform: uppercase;
 }
+
+/*========MAIN SECTION========*/
+.main-section {
+    padding: 51px 0px 99px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*========ABOUT ME========*/
+.main-section__biography {
+    display: flex;
+    column-gap: 68px;
+    margin-bottom: 104px;
+}
+
+.biography__content {
+    width: 559px;
+}
+
+.main-section__img {
+    width: 411px;
+    height: 355px;
+    object-fit: cover;
+}
+
+.main-section__title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: var(--regular-letter-spacing);
+}
+
+.strip {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #19849B;
+    margin: 14px 0 12px 0;
+}
+
+.main-section__subtitle {
+    width: 590px;
+}
+
+.subtitle {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--subtitle-font-size);
+    line-height: var(--subtitle-line-height);
+    letter-spacing: var(--regular-letter-spacing);
+}
+
+.text {
+    font-weight: var(--font-weight-regular);
+    font-size: var(--text-font-size);
+    line-height: var(--text-line-height);
+    letter-spacing: var(--regular-letter-spacing);
+}
+
+.main-section__text {
+    margin: 26px 0;
+}
+
+.btn {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--btn-font-size);
+    line-height: var(--btn-line-height);
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.main-section__btn {
+    padding: 15px 111px;
+    letter-spacing: var(--regular-letter-spacing);
+}
+
+.btn:hover {
+    background-color: #19849B;
+}
+
+/*========PORTFOLIO========*/
+.portfolio__text {
+    width: 766px;
+    margin: 15px 0 28px 0;
+}
+
+.portfolio__range {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.portfolio__range-img-wrapper {
+    position: relative;
+    width: 244px;
+    height: 244px;
+    cursor: pointer;
+}
+
+.portfolio__range-img {
+    width: 100%;
+}
+
+.portfolio__range-img-owerlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(25, 132, 155, 0.5), rgba(25, 132, 155, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.portfolio__range-img-owerlay:hover {
+    opacity: 1;
+}
