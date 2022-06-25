@@ -1,0 +1,19 @@
+body {
+    background-color: #272A2F;
+}
+
+/*========HEADER========*/
+.header {
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #19849B;
+}
+
+.header__title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    letter-spacing: var(--regular-letter-spacing);
+    text-transform: uppercase;
+}

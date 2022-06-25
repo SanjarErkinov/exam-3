@@ -1,0 +1,44 @@
+:root {
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    --title-font-size: 30px;
+    --subtitle-font-size: 24px;
+    --text-font-size: 16px;
+    --btn-font-size: 18px;
+    --footer-title-font-size: 22px;
+    --footer-copyright-font-size: 12px;
+    --title-line-height: 34px;
+    --subtitle-line-height: 28px;
+    --text-line-height: 18px;
+    --btn-line-height: 21px;
+    --footer-title-line-height: 25px;
+    --footer-copyright-line-height: 14px;
+    --regular-letter-spacing: .01em;
+    --long-letter-spacing: 1.5em;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+select {
+    border: none;
+    outline: none;
+}
